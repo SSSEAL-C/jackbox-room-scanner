@@ -47,4 +47,3 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=CONNECTIONS) as executor:
             out.append(data)
     time2=time.time()
 print(f'Took {time2-time1:.2f} s')
-print(out)
